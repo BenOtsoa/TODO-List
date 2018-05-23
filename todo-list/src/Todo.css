@@ -1,0 +1,31 @@
+.todo {
+  position: relative;
+}
+
+li {
+  list-style-type: none;
+}
+
+.styledUnchecked {
+  background-color: firebrick;
+}
+
+.styledChecked {
+  color: gray;
+  transform: blur(1px);
+  background-color: rgb(223, 223, 223);
+  text-decoration: line-through;
+  border: none;
+  box-shadow: 2px 1px rgb(197, 197, 197);
+}
+
+.supp {
+  position: absolute;
+  right: 1rem;
+  top: 0.5rem;
+}
+
+.supp:hover {
+  color: black;
+  cursor: pointer;
+}
