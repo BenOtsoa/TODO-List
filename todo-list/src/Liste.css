@@ -1,0 +1,15 @@
+ul {
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+
+li {
+  text-align: left;
+  list-style-type: none;
+  padding: 0.5rem 0.5rem;
+  margin: 0.5rem 0;
+  border: 1px solid rgba(255, 181, 53, 0.74);
+  border-radius: 5px;
+  box-shadow: 1px 2px rgba(255, 181, 53, 0.301);
+  background-color: rgb(255, 246, 232);
+}
